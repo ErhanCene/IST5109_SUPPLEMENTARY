@@ -1,0 +1,4 @@
+# CSV dosyalari BAYT BAYT saklanir. Satir sonu donusumu (CRLF <-> LF) kapali,
+# cunku ders notlarindaki sayilar bu dosyalarin tam kopyasindan uretilmistir ve
+# indirilen dosyanin kaynaktakiyle md5 olarak ayni olmasi istenir.
+*.csv -text
