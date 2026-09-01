@@ -5,8 +5,9 @@ durur. Ders notlarındaki bütün sayılar bu dosyalardan üretilmiştir.
 
 ## Nasıl indirilir?
 
-- **Tek dosya:** `data/` klasöründe dosyanın üstüne tıklayın, açılan sayfada
-  **Download raw file** düğmesini kullanın.
+- **Tek dosya:** `data/` klasöründe dosyanın üstüne tıklayın. Açılan sayfada
+  veriyi tablo hâlinde görürsünüz; sağ üstteki **Raw** düğmesinin yanındaki
+  indirme simgesine (**Download raw file**) tıklayın.
 - **Hepsi birden:** bu sayfanın üstündeki yeşil **Code** düğmesi → **Download ZIP**.
 
 İndirdiğiniz dosyaları, çalıştıracağınız R betiğinin yanında bir
