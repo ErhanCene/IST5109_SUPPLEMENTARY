@@ -41,14 +41,15 @@ eklenmiştir. Bu dosyayı ders dışında hiçbir analizde kullanmayın.
 | `auto_claims.csv` | 6.776 | 6 | Hafta 2 — ders anlatımı |
 | `auto_claims_truth.csv` | 6.773 | 2 | Hafta 2 — yalnızca MNAR bölümü |
 | `auto_bi.csv` | 1.340 | 8 | Hafta 2 — laboratuvar |
-| `danishuni.csv` | 2.167 | 1 | Hafta 3 |
+| `danishuni.csv` | 2.167 | 1 | Hafta 3 — hasar büyüklüğü |
+| `claims_long.csv` | 120.000 | 6 | Hafta 3 — hasar sıklığı |
 | `canlifins_sample.csv` | 2.000 | 6 | Hafta 5 |
 | `tuik_life_table.csv` | 606 | 9 | Hafta 6 ve 7 |
 | `life_expectancy_education.csv` | 108 | 4 | Hafta 6 |
 | `healthy_life_expectancy.csv` | 57 | 5 | Hafta 6 |
 | `data_car.csv` | 67.856 | 10 | Hafta 9 |
 | `genins_long.csv` | 55 | 3 | Hafta 10 |
-| `data_manifest.csv` | 10 | 7 | — (aşağıya bakın) |
+| `data_manifest.csv` | 11 | 7 | — (aşağıya bakın) |
 
 ### `auto_claims_truth.csv` nedir?
 
@@ -58,6 +59,14 @@ tutarlar ayrı bir dosyada saklanmıştır. **Gerçek hayatta böyle bir dosya
 yoktur** — kaybın büyüklüğünü ölçebiliyor olmamızın nedeni yöntemin iyiliği
 değil, kaybı bizim üretmiş olmamızdır. Not bunu açıkça söyler ve dosyayı yalnızca
 tek bir bölümde okur.
+
+### `claims_long.csv` nedir?
+
+Hafta 3'ün sıklık bölümü için bir araç sigortası portföyünün yıllık hasar
+sayılarıdır: 40.000 poliçe, her biri üç yıl. **Gerçek bir portföy değil,
+benzetim verisidir** (`insuranceData` paketinin `ClaimsLong` verisi; de Jong ve
+Heller 2008). Aynı poliçenin üç yılı birbirinden bağımsız değildir; ders notu
+yalnızca birinci yılı, laboratuvar ikinci ve üçüncü yılı kullanır.
 
 ### `data_manifest.csv` nedir?
 
